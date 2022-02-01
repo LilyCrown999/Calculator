@@ -11,16 +11,28 @@
 
 .result{
     flex: 1;
+    flex-shrink: inherit;
     font-size: 24px;
-    color: rgb(104, 184, 104);
+    color: rgb(167, 0, 153);
     width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    display: inline-block;
+
 }
 
 .text{
     flex: 1;
+    flex-shrink: inherit;
     font-size: 18px;
-    color: rgb(104, 184, 104);
+    color: rgb(0, 0, 0);
     width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    width: -moz-fit-content;
+    width: fit-content;
+    
+    position: relative;
+    display: inline-block;
 
 }
 
